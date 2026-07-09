@@ -9,7 +9,7 @@
     "dependencies": [
         "base >= 2.1.0",
         "pycoalprocessing >= 1.9.7",
-        "DeadlockStackingForFactorio2-continued >= 1.0.0",
+        "deadlock-beltboxes-loaders-continued >= 7.0.3",
         "(?)DeadlockCrating >= 1.6.0",
         "(?)pyindustry >= 1.5.4",
         "(?)pyhightech >= 1.7.8",
