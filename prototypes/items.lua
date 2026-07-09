@@ -8,7 +8,7 @@ function create_all(stackable_items, stage_prefix, create_function)
                 local icon_size = item.icon_size or 32
                 local item_type = item.type or "item"
                 if icon == nil then
-                    icon = "__DeadlocksStackingForPyanadon__/graphics/icons/stacked-" .. item.item .. ".png"
+                    icon = "__DeadlocksStackingForPyanadon-continued__/graphics/icons/stacked-" .. item.item .. ".png"
                 end
                 if item.tech then
                     if data.raw.technology[item.tech] and type(data.raw.technology[item.tech].effects) == "table" then
