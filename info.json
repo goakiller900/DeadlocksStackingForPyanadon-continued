@@ -1,15 +1,15 @@
 {
-    "name": "DeadlocksStackingForPyanadon",
-    "version": "0.6.7",
-    "title": "Deadlock's Stacking for Pyanodon",
-    "author": "Chrisdec",
-    "collaborator": "Billbo99,The_Ghost",
+    "name": "DeadlocksStackingForPyanadon-continued",
+    "version": "0.7.0",
+    "title": "Deadlock's Stacking for Pyanodon Continued",
+    "author": "Chrisdec, continued by goakiller900",
+    "collaborator": "Billbo99, The_Ghost",
     "contact": "",
-    "homepage": "",
+    "homepage": "https://github.com/goakiller900/DeadlocksStackingForPyanadon-continued",
     "dependencies": [
-        "base >= 1.1.63",
+        "base >= 2.1.0",
         "pycoalprocessing >= 1.9.7",
-        "deadlock-beltboxes-loaders >= 2.4.2",
+        "DeadlockStackingForFactorio2-continued >= 1.0.0",
         "(?)DeadlockCrating >= 1.6.0",
         "(?)pyindustry >= 1.5.4",
         "(?)pyhightech >= 1.7.8",
@@ -19,6 +19,6 @@
         "(?)pyalienlife >= 1.13.2",
         "(?)pyalternativeenergy >= 1.0.4"
     ],
-    "description": "Adds stacking for intermediate products introduced in Pyanodons Coal Processing, Pyanodons Fusion Energy, Pyanodons HighTech, Pyanodons Raw Ores, Py Petroleum Handling, Pyanodons Alien Life and Pyanodons Alternative Energy.",
-    "factorio_version": "2.0"
+    "description": "Community-maintained continuation of Deadlock's Stacking for Pyanodon, updated for Factorio 2.1.",
+    "factorio_version": "2.1"
 }
