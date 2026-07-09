@@ -1,0 +1,655 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.6.7
+Date: 2024. 11. 08
+  Fixes:
+    - fixed deadlock-stacking-for-pyanodon-x.y.z.lua (thanks to goakiller900)
+---------------------------------------------------------------------------------------------------
+Version: 0.6.6
+Date: 2024. 11. 02
+  Changes:
+    - Updated to factorio version 2.0
+---------------------------------------------------------------------------------------------------
+Version: 0.6.5
+Date: 2024. 05. 05
+  Bugfixes:
+    - fixed that ralesia-mk03 tech doesn't exist when you dont have the full py suite
+    - Thanks to SkarKorlan13 for letting me know
+    - Thanks to Dial-up for giving me the fix on github
+---------------------------------------------------------------------------------------------------
+Version: 0.6.4
+Date: 2024. 04. 27
+  Changes:
+    - Added Stacking for:
+    - titanium-enriched biomass
+    - zinc-enriched biomass
+    - niobium-enriched biomass
+---------------------------------------------------------------------------------------------------
+Version: 0.6.3
+Date: 2024. 03. 19
+  Changes:
+    - Moved Low-Grade copper dust from stage 2 to Stage 1
+---------------------------------------------------------------------------------------------------
+Version: 0.6.2
+Date: 2023. 11. 04
+  Changes:
+    - fertilizer stacking moved from stage 2 to tech feritlizer-mk01 (Otaku Showboat)
+    - added stacking for:
+    - antimony ore
+    - crushed antimony "sb-crushed"
+    - antimony dust "sb-dust"
+    - high purified antimony "high-purified-sb" all requested by Otaku Showboat
+    - lead acetate
+    - sodium cyanate
+    - yellow dextrine
+---------------------------------------------------------------------------------------------------
+Version: 0.6.1
+Date: 2023. 10. 21
+  Changes:
+    - added Deadlock's Stacking Beltboxes & Compact Loaders as dependency (requested)
+---------------------------------------------------------------------------------------------------
+Version: 0.6.0
+Date: 2023. 09. 16
+  Changes:
+    - added a new thumbnail (special thanks to burr)
+    - fiber is now available when filtration tech is researched
+    - Added stacking for:
+    - dry ralesia
+    - updated icons for
+    - aluminium plate
+    - glass
+---------------------------------------------------------------------------------------------------
+Version: 0.5.9
+Date: 2023. 09. 08
+  Changes:
+    - removed ralesia (from PyCoalProcessing)
+    - removed py-fertilizer (from PyHighTech)
+---------------------------------------------------------------------------------------------------
+Version: 0.5.8
+Date: 2023. 04. 02
+  Changes:
+    - moved chitin from stage 3 to stage 1
+    - moved skin from stage 2 to stage 1
+    - moved bones from stage 2 to stage 1 (all requested)
+---------------------------------------------------------------------------------------------------
+Version: 0.5.7
+Date: 2022. 12. 18
+  Bugfixes:
+    - fixed typo in changelog (had science-coating twice)
+    - mayor cleanup in changelog
+  Changes:
+    - added stacking for:
+    - native flora (by request)
+---------------------------------------------------------------------------------------------------
+Version: 0.5.6
+Date: 2022. 12. 10
+  Changes:
+    - added stacking for:
+    - kerogen (requested)
+    - lead-antimony alloy (pbsb-alloy)
+    - antimony grade 1
+    - antimony grade 2
+    - antimony grade 3
+    - antimony grade 4
+---------------------------------------------------------------------------------------------------
+Version: 0.5.5
+Date: 2022. 11. 26
+  Changes:
+    - added stacking for:
+    - controler mk01
+    - brakes mk01
+    - shaft mk01
+    - electronics mk01
+    - gearbox mk01
+    - mp101 aka mechanical-parts-01
+    - utility box mk01
+---------------------------------------------------------------------------------------------------
+Version: 0.5.4
+Date: 2022. 08. 01
+  Bugfixes:
+    - corrected dependencies to match current beta release (thanks to Billbo99)
+    - !! Warning version 0.5.3 will be deleted (beta)
+---------------------------------------------------------------------------------------------------
+Version: 0.5.3
+Date: 2022. 07. 31
+  Changes:
+    - added stacking for
+    - iron-nexelit-antimony special alloy (fenxsb-alloy)
+    - intermetallics
+    - antimony oxide (sb-oxide)
+    - vitleroy
+    - blade mk01
+    - nacelle mk01
+    - yaw drive mk01
+    - rotor mk1
+    - tower mk1
+    - battery mk01
+  Graphics:
+    - added new icons for:
+    - inductor1
+    - inductor2
+    - inductor3
+    - vacuum tube
+  Mayor Features:
+    - Chrisdec is owner from now on
+    - The_Ghost is collaborator from now on
+    - added Billbo99 as collaborator
+  Changes:
+    - removed small lamp ( is a base item not from the py suite)
+    - removed organics (no longer used in the full py suite)
+  Optimizations:
+    - Lock stacking before this is researched (will be done in several updates):
+    - ( you will no longer see the stacked icons iff the beltboxes are researched )
+    - locked begind tech:
+    - belt (rubber belt)
+    - carbon black
+    - rubber
+    - urea
+    - melamine
+    - melamine resin
+---------------------------------------------------------------------------------------------------
+Version: 0.5.2
+Date: 2022. 07. 21
+  Graphics:
+    - added new icons for:
+    - advanced circuit
+    - capacitor 2
+    - resistor 1
+    - resistor 2
+    - resistor 3
+    - pcb 1
+    - super capacitor
+    - super conductor
+  Changes:
+    - added stacking for:
+    - nexelit battery
+    - used nexelit battery
+    - parametric oscilator
+  Bugfixes:
+    - renamed stacked icon valve to vacuum tube (it did not show stacked icon)
+---------------------------------------------------------------------------------------------------
+Version: 0.5.1
+Date: 2022. 07. 16
+  Changes:
+    - added Py Alternative Energy (Beta) not required to run !!Warning not on mod portal!!
+    - added stacking for:
+    - CuZn battery
+    - bioreceptors
+  Graphics:
+    - added new icons for:
+    - electronic circuit
+    - capacitor1
+---------------------------------------------------------------------------------------------------
+Version: 0.5.0
+Date: 2021. 08. 03
+  Changes:
+    - added stacking for:
+    - empty petri dish
+---------------------------------------------------------------------------------------------------
+Version: 0.4.9
+Date: 2021. 03. 27
+  Changes:
+    - added stacking for:
+    - manure
+    - moondrop
+---------------------------------------------------------------------------------------------------
+Version: 0.4.8
+Date: 2021. 01. 17
+  Changes:
+    - added stacking for:
+    - science coating
+    - small lamp (base item not py related)
+    - alien sample
+    - bio sample
+    - coal briquette
+    - starch
+    - powdered ralesia seeds
+    - copper coating
+    - kevlar coating
+    - nbfe coating
+    - sodium bisulfate
+    - sodium carbonate
+    - sodium sulfate
+    - log
+---------------------------------------------------------------------------------------------------
+Version: 0.4.7
+Date: 2021. 01. 16
+  Changes:
+    - added stacking for:
+    - biofilm
+    - formica
+    - fuelrod mk02
+    - fuelrod mk03
+    - fuelrod mk04
+    - fuelrod mk05
+---------------------------------------------------------------------------------------------------
+Version: 0.4.6
+Date: 2021. 01. 09
+  Bugfixes:
+    - fixed lard (mukmuox-fat) and organics (organic-matter) when py alien mod is not active
+  Changes:
+    - added stacking for:
+    - activated carbon (by request)
+    - zinc chloride (by request)
+---------------------------------------------------------------------------------------------------
+Version: 0.4.5
+Date: 2020. 12. 05
+  Bugfixes:
+    - fixed guar stacking, thanks to nagapito
+  Changes:
+    - guar is now a module when py alien life is used, thanks to nagapito
+---------------------------------------------------------------------------------------------------
+Version: 0.4.4
+Date: 2020.11.29
+  Changes:
+    - updated to factorio version 1.1 by request
+---------------------------------------------------------------------------------------------------
+Version: 0.4.3
+Date: 2020. 11. 08
+  Changes:
+    - moved salt to stage 1
+---------------------------------------------------------------------------------------------------
+Version: 0.4.1
+Date: 2020. 10. 17
+  Changes:
+    - added stacking for:
+    - immunosuppressants
+    - pineal gland
+    - magnetic beads
+    - calmodulin-binding mutant peptide (cbp)
+    - primers
+    - sugar
+    - bioscaffold
+    - venon gland
+    - alien enzymes
+    - pheromones
+    - growth factor (gh)
+    - antivirals
+---------------------------------------------------------------------------------------------------
+Version: 0.4.0
+Date: 2020. 10. 11
+  Changes:
+    - added stacking for:
+    - yaedols spores
+    - yaedols mk 01
+    - myoglobin
+    - paramagnetic material
+    - arthurian egg
+    - microcin j25
+    - chimeric proteins
+    - cytostatics
+    - purine analogues
+    - dingrit spike
+    - equipment chassis
+    - laboratory instrument
+    - propeptides
+    - pacifastin
+---------------------------------------------------------------------------------------------------
+Version: 0.3.9
+Date: 2020. 10. 04
+  Changes:
+    - updated stacked icons for processing unit and soil
+    - updated factorio version to 1.0.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.8
+Date: 2020. 09. 26
+  Bugfixes:
+    - script in Util that process the final fixes is ignoring the iconSize property
+    - change the fertilizer items to process only on final fixes
+    - set to some stacking items inFinalFixes to true (all thanks to nagapito)
+---------------------------------------------------------------------------------------------------
+Version: 0.3.7
+Date: 2020. 09. 19
+  Changes:
+    - all the food and chum
+---------------------------------------------------------------------------------------------------
+Version: 0.3.6
+Date: 2020. 09. 09
+  Bugfixes:
+    - fixed stacked icon for ralesia mk1
+---------------------------------------------------------------------------------------------------
+Version: 0.3.5
+Date: 2020. 09. 06
+  Changes:
+    - added stacking for:
+    - guar
+    - guar gum
+    - fertilizer
+    - sap seed
+    - yotoi seed
+    - tuuphra seed
+    - rennea seed
+    - grod seed
+    - cridren seed
+    - kicalk seed
+    - cadaveric arum seed
+    - tree seedling
+    - partially digested rennea seed
+    - abraded rennea seed mk02
+    - seed extract 01
+---------------------------------------------------------------------------------------------------
+Version: 0.3.4
+Date: 2020. 08. 23
+  Changes:
+    - added stacking for:
+    - all caged animals
+    - moved low grade rejects from stage 3 to stage 2
+---------------------------------------------------------------------------------------------------
+Version: 0.3.3
+Date: 2020. 08. 02
+  Changes:
+    - added stacking for:
+    - mosfet
+    - NiSi
+    - SIC
+    - green SIC
+    - cobalt fluoride
+    - cobalt sulfate
+    - cobalt sulfate 02
+    - meat
+    - dried meat
+    - lard
+    - brain
+    - guts
+---------------------------------------------------------------------------------------------------
+Version: 0.3.2
+Date: 2020. 07. 27
+  Changes:
+    - moved molybdenum ore from stage 3 to stage 2
+    - replaced stacked icons for transistor and biomass (due to new icons)
+---------------------------------------------------------------------------------------------------
+Version: 0.3.1
+Date: 2020. 07. 25
+  Changes:
+    - added stacking for:
+    - filtration media
+    - fiber
+    - microfiber
+    - molybdenum disulfide (MoS2)
+    - molybdenum trioxide (MoO3)
+    - molybdenite powder (all by request)
+---------------------------------------------------------------------------------------------------
+Version: 0.3.0
+Date: 2020. 07. 21
+  Changes:
+    - added stacking for:
+    - tin-chromium alloy
+    - warm stone brick
+    - warmer stone brick
+    - hot stone brick (all by request)
+---------------------------------------------------------------------------------------------------
+Version: 0.2.9
+Date: 2020. 07. 19
+  Changes:
+    - added stacking for:
+    - wood seeds
+    - moondrop seeds
+    - fungal substrate
+    - improved fungal substrate
+    - special fungal substrate
+    - casein
+    - lignin
+    - phadai carapace
+    - chitin
+    - cobalt extract
+    - super crystalline structure
+    - cobalt oxide
+    - neuromorphic chip
+    - metallic glass
+---------------------------------------------------------------------------------------------------
+Version: 0.2.8
+Date: 2020. 06. 28
+  Bugfixes:
+    - crating for Pyanodons mods should now be enabled when Crating Machine is researched
+    - some coding fixes (thanks to billbo99) advice you should do a tech reset  /c game.player.force.reset_technology_effects()
+---------------------------------------------------------------------------------------------------
+Version: 0.2.7
+Date: 2020. 06. 28
+  Changes:
+    - re added all optional dependencies due to moss and seaweed being removed from stacking
+---------------------------------------------------------------------------------------------------
+Version: 0.2.6
+Date: 2020. 06. 27
+  Changes:
+    - removed all optional dependencies from the list (they all are still working) suggested by Kingarthur
+---------------------------------------------------------------------------------------------------
+Version: 0.2.5
+Date: 2020. 06. 21
+  Changes:
+    - re added mod support for Deadlock Crating Machine (from shanemadden) (by request)
+    - seaweed
+  Bugfixes:
+    - since seaweed and moss are modules i needed to redo some coding in the mod (thanks to billbo99)
+---------------------------------------------------------------------------------------------------
+Version: 0.2.4
+Date: 2020. 06. 17
+  Bugfixes:
+    - fixed bug when stacking biomass becomes stacked organic matter
+    - organic matter no longer required with Py Alien Life mod installed
+---------------------------------------------------------------------------------------------------
+Version: 0.2.3
+Date: 2020. 06. 14
+  Changes:
+    - added for stacking:
+    - empty comb
+    - saps
+    - moss gene sample
+    - biosample
+    - cDNA
+    - plasmids
+    - retrovirus
+    - sodium alginate
+    - petri dish
+    - incubated petri dish
+    - vrauk cocoon
+---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+Date: 2020. 06. 07
+  Changes:
+    - added for stacking:
+    - biomass (by request)
+    - agar
+    - latex slab
+    - cellulose
+    - moss
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+Date: 2020. 06. 06
+  Changes:
+    - added for stacking: (some by request)
+    - crushed oil sand
+    - carbon black
+    - oil sand
+    - coarse coal
+    - crushed coal
+    - latex
+  Bugfixes:
+    - added a new script for creating stacked icons (a very special thanks to billbo99)
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 2020. 02. 15
+  Changes:
+    - added stacked icons to optimize performance
+    - adapted recipes for stacking beltboxes to pyanodons modpack (if pyrawores and/or pypetroleumhandling is installed)
+  Bugfixes:
+    - corrected spelling for the following items:
+      - from pyhightech:
+        - circuit-board-1 -> electronic-circuits
+        - circuit-board-2 -> advanced-circuits
+        - phenolic-board -> phenolicboard
+        - fertilizer -> py-fertilizer
+        - bone -> bones
+        - circuit-board-3 -> processor
+        - re-tin-alloy -> re-tin
+        - nano-chip -> nanochip
+      - from pyfusion:
+        - superconducting-wire -> sc-wire
+        - superconducting-coil -> sc-coil
+        - boron-trioxide-dust -> b2o3-dust
+        - deposited-vcore -> deposited-core
+        - rwall-shield -> reinforced-wall-shield
+        - magnetic-unit -> sc-unit
+      - from pyrawores:
+        - low-grade-copper-rejects -> low-grade-rejects
+    - removed duplicate stacking:
+      - from pyfusion: control-unit
+---------------------------------------------------------------------------------------------------
+Version: 0.1.18
+Date: 2020. 03. 1
+  Minor Features:
+    - updated to version 0.18.9
+  Changes:
+    - added stacking for:
+    - niobium oxide
+    - niobium concentrate
+    - niobium powder
+    - niobium dust
+---------------------------------------------------------------------------------------------------
+Version: 0.1.17
+Date: 2020. 02. 15
+  Changes:
+    - added a thumbnail
+    - added pypetroleumhandling
+    - small parts 1, 2 and 3, belts, bolts
+    - raw coal (by request)
+---------------------------------------------------------------------------------------------------
+Version: 0.1.16
+Date: 2020. 02. 13
+  Changes:
+    - migration changes thanks to JCU for making it work with existing save
+---------------------------------------------------------------------------------------------------
+Version: 0.1.15
+Date: 2020. 02. 01
+  Changes:
+    - updated to factorio version 0.18
+    - reset icon size to 32
+    - removed deadlock crating mod due to deprecation
+    - moved coarse fraction up a stage
+---------------------------------------------------------------------------------------------------
+Version: 0.1.14
+Date: 2019. 07. 06
+  Changes:
+    - changed icon size from 32 to 64
+---------------------------------------------------------------------------------------------------
+Version: 0.1.13
+Date: 2019.06.23
+  Optimizations:
+    - moved electronic circuits from stage 2 to stage 1
+  Changes:
+    - added stacking for:
+    - nic core
+    - microchip
+    - high flux core
+    - heavy p doped silicon
+    - graphene sheet
+    - glass fibers
+    - fiberglass
+    - epoxy
+    - diode
+    - bisphenol a
+    - collagen
+    - bones
+    - blood meal
+    - transistor
+    - silicon
+    - stone wool
+---------------------------------------------------------------------------------------------------
+Version: 0.1.12
+Date: 2019. 05. 27
+  Changes:
+    - added stacking for:
+    - quantum dots
+    - pyrolyctic carbon
+    - fertilizer
+    - proton reciever
+    - proton donor
+    - nylon
+    - ndfeb alloy
+    - powdered phosphate rock
+    - pi josephson junction
+    - nylon parts
+    - nexelit-silver matrix
+    - nitrogen-vacancy center
+    - nanoelectromechanical systems
+    - ndfeb powder
+    - nanocrystaline core
+---------------------------------------------------------------------------------------------------
+Version: 0.1.11
+Date: 2019. 05. 27
+  Changes:
+    - made PyCoalProcessing a non optional dependency
+---------------------------------------------------------------------------------------------------
+Version: 0.1.10
+Date: 2019. 05. 13
+  Changes:
+    - rebased the mod on Shane Madden's beltboxes mod
+    - add support for Pyanadons Raw Ores
+    - updated the mod for Factorio 0.17.x
+    - a lot of things
+    - changed tiers for some items to respect the receipt changes in Pyanadons mods
+---------------------------------------------------------------------------------------------------
+Version: 0.1.9
+Date: 2018. 06. 27
+  Bugfixes:
+    - implemented a proper version migration script and added a simple build script
+---------------------------------------------------------------------------------------------------
+Version: 0.1.8
+Date: 2018. 06. 21
+  Bugfixes:
+    - Fixed a typo in an item name
+---------------------------------------------------------------------------------------------------
+Version: 0.1.7
+Date: 2018. 06. 21
+  Changes:
+    - added stacking for:
+    - Raw Nexelit
+    - Raw Borax
+    - Niobium Ore
+    - Limestone
+---------------------------------------------------------------------------------------------------
+Version: 0.1.6
+Date: 2018. 05. 27
+  Changes:
+    - added stacking for:
+    - Boron Trioxide
+    - Bone Meal
+    - Lime, Borax
+    - Ralesia Seeds
+    - Treated Wood
+    - Optical Set
+    - Ground Sample 01
+    - Printed Circuit Substrate 1
+    - Fiberboard
+    - Fawogae Substrate
+    - Graphite
+---------------------------------------------------------------------------------------------------
+Version: 0.1.5
+Date: 2018. 05. 14
+  Changes:
+    - added stacking for:
+    - Ceramic
+    - Raw Fiber
+    - Urea
+    - Melamine
+    - Melamine Resin
+---------------------------------------------------------------------------------------------------
+Version: 0.1.4
+Date: 2018. 05. 11
+  Bugfixes:
+    - Changed the stack icons for electronic circuits, advanced circuits and processing units if pY HighTech is installed
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 2018. 05. 07
+  Bugfixes:
+    - Fix a crash on startup
+  Changes:
+    - added stacking for:
+    - Iron Oxide
+    - Fawogae
+    - Ralesia
+    - Clay
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 2018. 05. 07
+  Changes:
+    - added stacking for:
+    - Coke
