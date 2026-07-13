@@ -50,11 +50,3 @@ This is not an official release from the original maintainers. If the original m
 GitHub Actions validates `info.json`, builds a deterministic Factorio-ready ZIP and creates a SHA-256 checksum.
 
 On pushes to `main`, the workflow creates an immutable GitHub release for the version in `info.json`. Pull requests only build and validate the archive.
-
-Factorio Mod Portal publication is enabled when this repository secret is configured:
-
-```text
-FACTORIO_API_KEY
-```
-
-The secret is never stored in the repository. A manual workflow run can also build the ZIP and optionally publish the current version to the Mod Portal.
